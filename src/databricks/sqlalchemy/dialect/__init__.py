@@ -152,6 +152,7 @@ class DatabricksDialect(default.DefaultDialect):
             "uniontype": types.String,
             "decimal": DatabricksDecimal,
             "timestamp": DatabricksTimestamp,
+            "timestamp_ntz": DatabricksTimestamp,
             "date": DatabricksDate,
         }
 
